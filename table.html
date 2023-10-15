@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблица</title>
+</head>
+
+<body>
+    <table border="1">
+        <caPtion>Заголовок таблицы</caPtion>
+        <tr>
+            <th>Заглавная ячейка 1</th>
+            <th>Заглавная ячейка 2</th>
+            <th>Заглавная ячейка 3</th>
+        </tr>
+        <tr>
+            <td>Ячейка 1</td>
+            <td>Ячейка 2</td>
+            <td>Ячейка 3</td>
+        </tr>
+    </table>
+    <br>
+    <table border="1">
+        <caption>Расписание занятий</caption>
+        <thead>
+            <tr>
+                <th>№ п/п</th>
+                <th>Понедельник</th>
+                <th>Вторник</th>
+                <th>Среда</th>
+                <th>Четверг</th>
+                <th>Пятница</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="6" align="center">1 четверть</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td rowspan="2">Математика</td>
+                <td>Русский язык</td>
+                <td>Химия</td>
+                <td rowspan="2">Физика</td>
+                <td>Биология</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Математика</td>
+                <td>Литература</td>
+                <td>Химия</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Изо</td>
+                <td rowspan="2">Технология</td>
+                <td>Геометрия</td>
+                <td>Химия</td>
+                <td rowspan="2">Физ-ра</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Обж</td>
+                <td>Геометрия</td>
+                <td>Англ язык</td>
+            </tr>
+            <tr>
+                <td colspan="6" align="center">2 четверть</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Англ язык</td>
+                <td rowspan="2">Алгебра</td>
+                <td>Геометрия</td>
+                <td>Химия</td>
+                <td>Русский язык</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Лит-ра</td>
+                <td>История</td>
+                <td>ОДНКР</td>
+                <td>ОБЖ</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Музыка</td>
+                <td>Физика</td>
+                <td rowspan="2">Геометрия</td>
+                <td>Химия</td>
+                <td>Заним математика</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Немецкий язык</td>
+                <td>Разговоры о важном</td>
+                <td>Физика</td>
+                <td>Русский язык</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="5">Всего уроков за полугодие</td>
+                <td>50</td>
+            </tr>
+        </tfoot>
+
+    </table>
+    <table border="1">
+        <caption>Пример</caption>
+        <thead>
+            <tr>
+                <th>Номер п/п</th>
+                <th>Марка</th>
+                <th>Модель</th>
+                <th>Стоимость руб</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Тойота</td>
+                <td>Corolla</td>
+                <td>1900000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Тойота</td>
+                <td>Camry</td>
+                <td>2400000</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Тойота</td>
+                <td>RAV 4</td>
+                <td>2600000</td>
+            </tr>
+            <tr>
+                <td colspan="3">Итого</td>
+                <td>6900000</td>
+            </tr>
+        </tbody>
+    </table>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Простой Заголовок</th>
+                <th colspan="2">Заголовок на 2 столбца</th>
+            </tr>
+            <tr>
+                <th colspan="1">Заголовок на 1 строку</th>
+                <td>Ячейка 1</td>
+                <td>Ячейка 2</td>
+            </tr>
+            <tr>
+                <th rowspan="3">Заголовок на 3 строки</th>
+                <td>Ячейка 3</td>
+                <td>Ячейка 4</td>
+            </tr>
+            <tr>
+                <td>Ячейка 5</td>
+                <td rowspan="2">Ячейка 6</td>
+            </tr>
+            <td>Ячейка 7</td>
+            </tr>
+        </thead>
+    </table>
+</body>
+
+</html>
